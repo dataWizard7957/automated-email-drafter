@@ -1,0 +1,50 @@
+# 🔐 Secrets & env 
+.env
+.env.*
+*.env
+credentials.json
+token.json
+
+# 🐍 Virtual env
+venv/
+ENV/
+
+# 🧠 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧪 Testing
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# 🧰 Type checking
+.mypy_cache/
+.pyright/
+
+# 💻 IDE
+.vscode/
+.idea/
+
+# 📦 Build
+dist/
+build/
+*.egg-info/
+
+# 🗂 OS files
+.DS_Store
+Thumbs.db
+
+# 📓 Jupyter
+.ipynb_checkpoints/
+
+# 📝 Logs & temp
+*.log
+*.tmp
+*.swp
+
+# 🗄 Local DB
+*.sqlite3
+db.sqlite3
